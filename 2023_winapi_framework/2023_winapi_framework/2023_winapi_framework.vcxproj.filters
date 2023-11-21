@@ -62,6 +62,24 @@
     <Filter Include="Engine\08. Module">
       <UniqueIdentifier>{b8698270-780f-4bb6-bf63-bf69c99fa2ad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Develop">
+      <UniqueIdentifier>{13363139-10c1-4b43-81af-30cf50dcfea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Develop\00. Scenes">
+      <UniqueIdentifier>{66222522-efd8-4d94-aaf7-28beee5bad72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Develop\01. Objects">
+      <UniqueIdentifier>{8c765a6c-702a-4d79-a938-1ce2b40f711d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Develop\02. Cores">
+      <UniqueIdentifier>{7a7de0de-66bb-4b96-b944-6953b24db588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Develop\03. Resources">
+      <UniqueIdentifier>{972e5a79-b36a-4f6f-9848-4996b30fcb3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Develop\04. Components">
+      <UniqueIdentifier>{4db8c6ad-6457-45cb-9289-c3108d43ac76}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
