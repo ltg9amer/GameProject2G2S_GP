@@ -23,6 +23,7 @@ enum class KEY_TYPE
 enum class OBJECT_GROUP
 {
 	DEFAULT,
+	BACKGROUND,
 	PLAYER,
 	BULLET,
 	MONSTER,
@@ -47,4 +48,12 @@ enum class EVENT_TYPE
 	CREATE_OBJECT,
 	SCENE_CHANGE,
 	END
+};
+
+enum class SceneType
+{
+	Bedroom,
+	Kitchen,
+	Playroom,
+	End
 };

@@ -80,6 +80,12 @@
     <Filter Include="Develop\04. Components">
       <UniqueIdentifier>{4db8c6ad-6457-45cb-9289-c3108d43ac76}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Develop\04. Components\Statistic">
+      <UniqueIdentifier>{96b40a2f-a8e2-4c48-a279-80d9287f3518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Develop\02. Cores\CameraManager">
+      <UniqueIdentifier>{03f5e858-2ee7-48b5-a910-65886ba8234f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -172,6 +178,18 @@
     <ClInclude Include="2023_winapi_framework.h">
       <Filter>Default</Filter>
     </ClInclude>
+    <ClInclude Include="Statistic.h">
+      <Filter>Develop\04. Components\Statistic</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>Develop\00. Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Develop\02. Cores\CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Develop\01. Objects</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="2023_winapi_framework.rc">
@@ -258,6 +276,18 @@
     </ClCompile>
     <ClCompile Include="Animator.cpp">
       <Filter>Engine\07. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Statistic.cpp">
+      <Filter>Develop\04. Components\Statistic</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>Develop\00. Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Develop\02. Cores\CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Develop\01. Objects</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

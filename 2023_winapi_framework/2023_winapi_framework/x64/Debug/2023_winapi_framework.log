@@ -1,2 +1,4 @@
-﻿  Player.cpp
-  2023_winapi_framework.vcxproj -> C:\Users\user\Downloads\2023_winapi_framework\Output\bin_debug\2023_winapi_framework.exe
+﻿  Core.cpp
+  PlayScene.cpp
+D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Background.h(18): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+  2023_winapi_framework.vcxproj -> D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\Output\bin_debug\2023_winapi_framework.exe

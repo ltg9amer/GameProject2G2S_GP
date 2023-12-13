@@ -2,15 +2,17 @@
 #include "SceneMgr.h"
 #include "Start_Scene.h"
 #include "Game_Scene.h"
+#include "PlayScene.h"
 void SceneMgr::Init()
 {
 	m_pCurScene = nullptr;
 	// 씬 등록
-	RegisterScene(L"Start_Scene",std::make_shared<Start_Scene>());
-	RegisterScene(L"Game_Scene", std::make_shared<Game_Scene>());
+	//RegisterScene(L"Start_Scene",std::make_shared<Start_Scene>());
+	//RegisterScene(L"Game_Scene", std::make_shared<Game_Scene>());
+	RegisterScene(L"PlayScene", std::make_shared<PlayScene>());
 
 	// 첫 씬 지정
-	LoadScene(L"Start_Scene");
+	LoadScene(L"PlayScene"); // 시작 씬 만들고 변경
 }
 
 void SceneMgr::Update()
