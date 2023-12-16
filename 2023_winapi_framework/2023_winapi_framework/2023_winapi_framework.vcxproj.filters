@@ -241,6 +241,7 @@
     <ClInclude Include="FoodButton.h">
       <Filter>Develop\05. Wonseok</Filter>
     </ClInclude>
+    <ClInclude Include="StartScene.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="2023_winapi_framework.rc">
@@ -376,5 +377,6 @@
     <ClCompile Include="FoodButton.cpp">
       <Filter>Develop\05. Wonseok</Filter>
     </ClCompile>
+    <ClCompile Include="StartScene.cpp" />
   </ItemGroup>
 </Project>

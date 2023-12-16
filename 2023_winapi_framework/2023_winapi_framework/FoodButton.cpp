@@ -22,3 +22,7 @@ void FoodButton::Render(HDC _dc)
 {
 	Button::Render(_dc);
 }
+
+void FoodButton::OnButtonClick()
+{
+}
