@@ -1,11 +1,10 @@
 #pragma once
 class Coin
 {
-	SINGLE(Coin);
+	SINGLE(Coin)
 private:
 	int CoinValue = 10;
 public:
-	void Init();
 	void PlusCoinValue(int value)
 	{
 		CoinValue += value;
@@ -22,4 +21,3 @@ public:
 		return CoinValue;
 	}
 };
-

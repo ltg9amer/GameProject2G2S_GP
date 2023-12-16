@@ -9,4 +9,3 @@ class Inventory
 public:
 	vector<Food*> invenFood;
 };
-
