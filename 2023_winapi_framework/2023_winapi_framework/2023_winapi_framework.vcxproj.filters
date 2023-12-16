@@ -101,6 +101,9 @@
     <Filter Include="Develop\05. Wonseok">
       <UniqueIdentifier>{abad51f4-9573-4753-a0d8-af1a4db73898}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Develop\05. Wonseok\Buttons">
+      <UniqueIdentifier>{366df041-be5e-4103-99c3-f4c2113d3299}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -238,10 +241,11 @@
     <ClInclude Include="Inventory.h">
       <Filter>Develop\05. Wonseok</Filter>
     </ClInclude>
-    <ClInclude Include="FoodButton.h">
-      <Filter>Develop\05. Wonseok</Filter>
-    </ClInclude>
     <ClInclude Include="StartScene.h" />
+    <ClInclude Include="FoodButtonParent.h" />
+    <ClInclude Include="BananaButton.h">
+      <Filter>Develop\05. Wonseok\Buttons</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="2023_winapi_framework.rc">
@@ -374,9 +378,10 @@
     <ClCompile Include="Inventory.cpp">
       <Filter>Develop\05. Wonseok</Filter>
     </ClCompile>
-    <ClCompile Include="FoodButton.cpp">
-      <Filter>Develop\05. Wonseok</Filter>
-    </ClCompile>
     <ClCompile Include="StartScene.cpp" />
+    <ClCompile Include="FoodButtonParent.cpp" />
+    <ClCompile Include="BananaButton.cpp">
+      <Filter>Develop\05. Wonseok\Buttons</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
