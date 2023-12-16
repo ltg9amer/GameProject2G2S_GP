@@ -1,6 +1,8 @@
 #include "pch.h"
 #include "TimeMgr.h"
 #include "Core.h"
+#include "Level.h"
+
 //#include <chrono> // ns
 void TimeMgr::Init()
 {
@@ -22,6 +24,7 @@ void TimeMgr::Init()
 
 void TimeMgr::Update()
 {
+	Level levMgr;
 	QueryPerformanceCounter(&m_llCurCount);
 
 	// Delta Time: 한 프레임에 걸린 시간.
@@ -42,6 +45,4 @@ void TimeMgr::Update()
 		//wsprintf();
 		//SetWindowText(Core::GetInst()->GetHwnd(), titlebuf);
 	}
-
-
 }

@@ -80,6 +80,15 @@
     <Filter Include="Develop\04. Components">
       <UniqueIdentifier>{4db8c6ad-6457-45cb-9289-c3108d43ac76}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Develop\02. Cores\CoinSystem">
+      <UniqueIdentifier>{a94be71c-96c6-4e06-bc59-f91c62d03b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Develop\02. Cores\LevelSystem">
+      <UniqueIdentifier>{5b23a535-6a0d-43e3-b455-3f10d46aff02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Develop\02. Cores\InventorySystem">
+      <UniqueIdentifier>{24d7509d-a102-4669-89bb-dd07eb0accea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -172,6 +181,24 @@
     <ClInclude Include="2023_winapi_framework.h">
       <Filter>Default</Filter>
     </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Develop\02. Cores\CoinSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Develop\02. Cores\LevelSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>Develop\00. Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Develop\02. Cores\InventorySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Develop\02. Cores\InventorySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Food.h">
+      <Filter>Develop\02. Cores\InventorySystem</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="2023_winapi_framework.rc">
@@ -258,6 +285,24 @@
     </ClCompile>
     <ClCompile Include="Animator.cpp">
       <Filter>Engine\07. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Develop\02. Cores\CoinSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Develop\02. Cores\LevelSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>Develop\00. Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Develop\02. Cores\InventorySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Develop\02. Cores\InventorySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Food.cpp">
+      <Filter>Develop\02. Cores\InventorySystem</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

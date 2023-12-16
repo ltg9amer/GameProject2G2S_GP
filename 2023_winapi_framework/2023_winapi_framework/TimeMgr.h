@@ -18,6 +18,5 @@ private:
 	UINT  m_fps; // FPS
 	UINT  m_frameCount; // 프레임 호출 체크
 	float m_accFrameTime; // 시간 누적
-
 };
 
