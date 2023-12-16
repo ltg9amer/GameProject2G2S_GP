@@ -247,6 +247,7 @@
     <ClInclude Include="Parva.h">
       <Filter>Develop\01. Objects\Main</Filter>
     </ClInclude>
+    <ClInclude Include="StartScene.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="2023_winapi_framework.rc">
@@ -385,5 +386,6 @@
     <ClCompile Include="Parva.cpp">
       <Filter>Develop\01. Objects\Main</Filter>
     </ClCompile>
+    <ClCompile Include="StartScene.cpp" />
   </ItemGroup>
 </Project>
