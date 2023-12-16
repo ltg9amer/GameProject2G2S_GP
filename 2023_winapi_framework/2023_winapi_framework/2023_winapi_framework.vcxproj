@@ -186,7 +186,8 @@
     <ClInclude Include="EventMgr.h" />
     <ClInclude Include="ExitButton.h" />
     <ClInclude Include="Food.h" />
-    <ClInclude Include="FoodButton.h" />
+    <ClInclude Include="BananaButton.h" />
+    <ClInclude Include="FoodButtonParent.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Game_Scene.h" />
     <ClInclude Include="Image.h" />
@@ -237,7 +238,8 @@
     <ClCompile Include="EventMgr.cpp" />
     <ClCompile Include="ExitButton.cpp" />
     <ClCompile Include="Food.cpp" />
-    <ClCompile Include="FoodButton.cpp" />
+    <ClCompile Include="BananaButton.cpp" />
+    <ClCompile Include="FoodButtonParent.cpp" />
     <ClCompile Include="Game_Scene.cpp" />
     <ClCompile Include="Image.cpp" />
     <ClCompile Include="IntroUI.cpp" />
