@@ -14,9 +14,14 @@ void Scene::Update()
 {
 	for (UINT i = 0; i < (UINT)OBJECT_GROUP::END; ++i)
 	{
+		if (i == (UINT)OBJECT_GROUP::UI)
+		{
+			continue;
+		}
+
 		for (size_t j = 0; j < m_vecObj[i].size(); ++j)
 		{
-			if(!m_vecObj[i][j]->GetIsDead())
+			if (!m_vecObj[i][j]->GetIsDead())
 				m_vecObj[i][j]->Update();
 		}
 	}
@@ -26,6 +31,11 @@ void Scene::FinalUpdate()
 {
 	for (UINT i = 0; i < (UINT)OBJECT_GROUP::END; ++i)
 	{
+		if (i == (UINT)OBJECT_GROUP::UI)
+		{
+			continue;
+		}
+
 		for (size_t j = 0; j < m_vecObj[i].size(); ++j)
 		{
 			m_vecObj[i][j]->FinalUpdate();
@@ -37,6 +47,11 @@ void Scene::Render(HDC _dc)
 {
 	for (UINT i = 0; i < (UINT)OBJECT_GROUP::END; ++i)
 	{
+		if (i == (UINT)OBJECT_GROUP::UI)
+		{
+			continue;
+		}
+
 		for (size_t j = 0; j < m_vecObj[i].size();)
 		{
 			if (!m_vecObj[i][j]->GetIsDead())

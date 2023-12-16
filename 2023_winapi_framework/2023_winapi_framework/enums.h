@@ -23,9 +23,11 @@ enum class KEY_TYPE
 enum class OBJECT_GROUP
 {
 	DEFAULT,
+	BACKGROUND,
 	PLAYER,
 	BULLET,
 	MONSTER,
+	UI,
 	END = 30
 };
 
@@ -47,4 +49,20 @@ enum class EVENT_TYPE
 	CREATE_OBJECT,
 	SCENE_CHANGE,
 	END
+};
+
+enum class RoomType
+{
+	Bedroom,
+	Kitchen,
+	Playroom,
+	End
+};
+
+enum class UIElementGroup
+{
+	StaticImage,
+	MovableImage,
+	Button,
+	End
 };

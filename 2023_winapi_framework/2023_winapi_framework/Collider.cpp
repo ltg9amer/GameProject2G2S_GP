@@ -1,4 +1,5 @@
 #include "pch.h"
+#include "CameraManager.h"
 #include "Collider.h"
 #include "Object.h"
 #include "SelectGDI.h"
@@ -37,7 +38,8 @@ void Collider::Render(HDC _dc)
 		ePen = PEN_TYPE::RED;
 	SelectGDI pen(_dc, ePen);
 	SelectGDI brush(_dc, BRUSH_TYPE::HOLLOW);
-	RECT_RENDER(m_vFinalPos.x, m_vFinalPos.y, m_vScale.x, m_vScale.y, _dc);
+	Vec2 renderPosition = CameraManager::GetInst()->GetRenderPosition(m_vFinalPos);
+	RECT_RENDER(renderPosition.x, renderPosition.y, m_vScale.x, m_vScale.y, _dc);
 }
 
 void Collider::EnterCollision(Collider* _pOther)

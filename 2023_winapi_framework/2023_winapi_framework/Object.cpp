@@ -4,6 +4,7 @@
 #include "TimeMgr.h"
 #include "Collider.h"
 #include "Animator.h"
+#include "CameraManager.h"
 Object::Object()
 	: m_pCollider(nullptr)
 	, m_vPos{}
@@ -54,7 +55,8 @@ void Object::Render(HDC _dc)
 {
 	/*Vec2 vPos = m_obj.GetPos();
 	Vec2 vScale = m_obj.GetScale();*/
-	RECT_RENDER(m_vPos.x, m_vPos.y, m_vScale.x, m_vScale.y, _dc);
+	Vec2 renderPosition = CameraManager::GetInst()->GetRenderPosition(m_vPos);
+	RECT_RENDER(renderPosition.x, renderPosition.y, m_vScale.x, m_vScale.y, _dc);
 	Component_Render(_dc);
 }
 
