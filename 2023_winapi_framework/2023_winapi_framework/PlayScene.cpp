@@ -1,15 +1,15 @@
 #include "pch.h"
 #include "Background.h"
+#include "BedroomUI.h"
 #include "CameraManager.h"
 #include "Core.h"
 #include "KeyMgr.h"
-#include "PlayScene.h"
-#include "TimeMgr.h"
-#include "BedroomUI.h"
 #include "KitchenUI.h"
 #include "PlayroomUI.h"
-
+#include "PlayScene.h"
 #include "SceneMgr.h"
+#include "TimeMgr.h"
+
 void PlayScene::Init()
 {
 	background = new Background;

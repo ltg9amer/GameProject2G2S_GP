@@ -184,10 +184,13 @@
     <ClInclude Include="define.h" />
     <ClInclude Include="enums.h" />
     <ClInclude Include="EventMgr.h" />
+    <ClInclude Include="ExitButton.h" />
     <ClInclude Include="Food.h" />
     <ClInclude Include="FoodButton.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Game_Scene.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="IntroUI.h" />
     <ClInclude Include="Inventory.h" />
     <ClInclude Include="KeyMgr.h" />
     <ClInclude Include="KitchenUI.h" />
@@ -207,6 +210,7 @@
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneMgr.h" />
     <ClInclude Include="SelectGDI.h" />
+    <ClInclude Include="StartButton.h" />
     <ClInclude Include="StartScene.h" />
     <ClInclude Include="Start_Scene.h" />
     <ClInclude Include="Statistic.h" />
@@ -231,9 +235,12 @@
     <ClCompile Include="CollisionMgr.cpp" />
     <ClCompile Include="Core.cpp" />
     <ClCompile Include="EventMgr.cpp" />
+    <ClCompile Include="ExitButton.cpp" />
     <ClCompile Include="Food.cpp" />
     <ClCompile Include="FoodButton.cpp" />
     <ClCompile Include="Game_Scene.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="IntroUI.cpp" />
     <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="KeyMgr.cpp" />
     <ClCompile Include="KitchenUI.cpp" />
@@ -252,6 +259,7 @@
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneMgr.cpp" />
     <ClCompile Include="SelectGDI.cpp" />
+    <ClCompile Include="StartButton.cpp" />
     <ClCompile Include="StartScene.cpp" />
     <ClCompile Include="Start_Scene.cpp" />
     <ClCompile Include="Statistic.cpp" />

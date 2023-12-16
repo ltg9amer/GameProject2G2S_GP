@@ -247,7 +247,21 @@
     <ClInclude Include="Parva.h">
       <Filter>Develop\01. Objects\Main</Filter>
     </ClInclude>
-    <ClInclude Include="StartScene.h" />
+    <ClInclude Include="StartScene.h">
+      <Filter>Develop\00. Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroUI.h">
+      <Filter>Develop\01. Objects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Develop\01. Objects\UIElement</Filter>
+    </ClInclude>
+    <ClInclude Include="StartButton.h">
+      <Filter>Develop\01. Objects\UIElement\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitButton.h">
+      <Filter>Develop\01. Objects\UIElement\Button</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="2023_winapi_framework.rc">
@@ -386,6 +400,20 @@
     <ClCompile Include="Parva.cpp">
       <Filter>Develop\01. Objects\Main</Filter>
     </ClCompile>
-    <ClCompile Include="StartScene.cpp" />
+    <ClCompile Include="StartScene.cpp">
+      <Filter>Develop\00. Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroUI.cpp">
+      <Filter>Develop\01. Objects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Develop\01. Objects\UIElement</Filter>
+    </ClCompile>
+    <ClCompile Include="StartButton.cpp">
+      <Filter>Develop\01. Objects\UIElement\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitButton.cpp">
+      <Filter>Develop\01. Objects\UIElement\Button</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

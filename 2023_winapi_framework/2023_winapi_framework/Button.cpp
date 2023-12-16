@@ -42,7 +42,7 @@ void Button::Render(HDC _dc)
 	long width = texture->GetWidth(), height = texture->GetHeight();
 
 	if (isPressed) {
-		TransparentBlt(_dc, interactionRectangle.left + 5, interactionRectangle.top + 5, m_vScale.x * .8f, m_vScale.y * .8f, texture->GetDC(), 0, 0, width, height, RGB(255, 0, 255));
+		TransparentBlt(_dc, interactionRectangle.left + m_vScale.x *.1f, interactionRectangle.top + m_vScale.y * .1f, m_vScale.x * .8f, m_vScale.y * .8f, texture->GetDC(), 0, 0, width, height, RGB(255, 0, 255));
 	}
 	else {
 		TransparentBlt(_dc, interactionRectangle.left, interactionRectangle.top, m_vScale.x, m_vScale.y, texture->GetDC(), 0, 0, width, height, RGB(255, 0, 255));

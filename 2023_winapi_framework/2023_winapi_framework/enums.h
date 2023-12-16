@@ -62,8 +62,7 @@ enum class RoomType
 
 enum class UIElementGroup
 {
-	StaticImage,
-	MovableImage,
+	Image,
 	Button,
 	End
 };

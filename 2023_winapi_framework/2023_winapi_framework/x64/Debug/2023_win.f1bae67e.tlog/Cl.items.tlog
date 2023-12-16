@@ -11,9 +11,12 @@ D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framewo
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\CollisionMgr.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\CollisionMgr.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Core.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Core.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\EventMgr.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\EventMgr.obj
+D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\ExitButton.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\ExitButton.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Food.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Food.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\FoodButton.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\FoodButton.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Game_Scene.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Game_Scene.obj
+D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Image.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Image.obj
+D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\IntroUI.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\IntroUI.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Inventory.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Inventory.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\KeyMgr.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\KeyMgr.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\KitchenUI.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\KitchenUI.obj
@@ -32,6 +35,8 @@ D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framewo
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Scene.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Scene.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\SceneMgr.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\SceneMgr.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\SelectGDI.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\SelectGDI.obj
+D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\StartButton.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\StartButton.obj
+D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\StartScene.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\StartScene.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Start_Scene.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Start_Scene.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Statistic.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Statistic.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Texture.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Texture.obj

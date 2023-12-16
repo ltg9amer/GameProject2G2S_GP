@@ -8,7 +8,7 @@
 Background::Background() : texture(nullptr), cameraPositionsByRoom{ Vec2(-250.f, Core::GetInst()->GetResolution().y * .5f), Vec2(250.f, Core::GetInst()->GetResolution().y * .5f), Vec2(750.f, Core::GetInst()->GetResolution().y * .5f)}
 {
 	texture = ResMgr::GetInst()->TexLoad(L"Background", L"Texture\\Background.bmp");
-	m_vScale = Vec2((int)texture->GetWidth(), (int)texture->GetHeight());
+	m_vScale = Vec2(texture->GetWidth(), texture->GetHeight());
 }
 
 Background::~Background()
