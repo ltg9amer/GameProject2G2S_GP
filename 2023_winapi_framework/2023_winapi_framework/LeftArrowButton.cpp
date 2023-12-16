@@ -1,7 +1,9 @@
 #include "pch.h"
 #include "LeftArrowButton.h"
+#include "PlayScene.h"
 #include "ResMgr.h"
 #include "Texture.h"
+#include "UI.h"
 
 LeftArrowButton::LeftArrowButton()
 {
@@ -21,4 +23,9 @@ void LeftArrowButton::Update()
 void LeftArrowButton::Render(HDC _dc)
 {
 	Button::Render(_dc);
+}
+
+void LeftArrowButton::OnButtonClick()
+{
+	((PlayScene*)ownerUI->GetOwnerScene())->MoveLeftRoom();
 }

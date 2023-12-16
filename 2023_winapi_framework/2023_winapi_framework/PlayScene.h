@@ -17,5 +17,9 @@ public:
     virtual void Render(HDC _dc) override;
     
     virtual void Release() override;
+
+    void MoveLeftRoom();
+
+    void MoveRightRoom();
 };
 

@@ -1,7 +1,9 @@
 #include "pch.h"
+#include "PlayScene.h"
 #include "ResMgr.h"
 #include "RightArrowButton.h"
 #include "Texture.h"
+#include "UI.h"
 
 RightArrowButton::RightArrowButton()
 {
@@ -21,4 +23,9 @@ void RightArrowButton::Update()
 void RightArrowButton::Render(HDC _dc)
 {
 	Button::Render(_dc);
+}
+
+void RightArrowButton::OnButtonClick()
+{
+	((PlayScene*)ownerUI->GetOwnerScene())->MoveRightRoom();
 }

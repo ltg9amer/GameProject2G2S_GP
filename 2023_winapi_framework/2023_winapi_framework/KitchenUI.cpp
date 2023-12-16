@@ -10,7 +10,8 @@ void KitchenUI::Initialize()
 
 	leftArrowButton->SetAnchoredPosition(Vec2(-200, 0));
 	rightArrowButton->SetAnchoredPosition(Vec2(200, 0));
-
+	leftArrowButton->SetOwnerUI(this);
+	rightArrowButton->SetOwnerUI(this);
 	AddElement(leftArrowButton, UIElementGroup::Button);
 	AddElement(rightArrowButton, UIElementGroup::Button);
 }

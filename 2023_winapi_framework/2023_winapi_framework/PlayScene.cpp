@@ -9,6 +9,7 @@
 #include "KitchenUI.h"
 #include "PlayroomUI.h"
 
+#include "SceneMgr.h"
 void PlayScene::Init()
 {
 	background = new Background;
@@ -23,8 +24,9 @@ void PlayScene::Init()
 	roomUIs[2] = new PlayroomUI;
 
 	for (UINT i = 0; i < (UINT)RoomType::End; ++i) {
-		roomUIs[i]->SetPos(background->GetCameraPosition(i));
 		roomUIs[i]->Initialize();
+		roomUIs[i]->SetOwnerScene(this);
+		roomUIs[i]->SetPos(background->GetCameraPosition(i));
 		AddObject(roomUIs[i], OBJECT_GROUP::UI);
 	}
 
@@ -37,15 +39,11 @@ void PlayScene::Update()
 	Vec2 cameraPosition = CameraManager::GetInst()->GetLookAtPosition();
 
 	if (KEY_DOWN(KEY_TYPE::LEFT)) {
-		if ((RoomType)currentRoom != RoomType::Bedroom) {
-			currentRoomUI = (UI*)GetGroupObject(OBJECT_GROUP::UI)[--currentRoom];
-		}
+		MoveLeftRoom();
 	}
 
 	if (KEY_DOWN(KEY_TYPE::RIGHT)) {
-		if ((RoomType)currentRoom != RoomType::Playroom) {
-			currentRoomUI = (UI*)GetGroupObject(OBJECT_GROUP::UI)[++currentRoom];
-		}
+		MoveRightRoom();
 	}
 
 	Vec2 curretRoomCameraPosition = background->GetCameraPosition(currentRoom);
@@ -80,4 +78,18 @@ void PlayScene::Render(HDC _dc)
 void PlayScene::Release()
 {
 	Scene::Release();
+}
+
+void PlayScene::MoveLeftRoom()
+{
+	if ((RoomType)currentRoom != RoomType::Bedroom) {
+		currentRoomUI = (UI*)GetGroupObject(OBJECT_GROUP::UI)[--currentRoom];
+	}
+}
+
+void PlayScene::MoveRightRoom()
+{
+	if ((RoomType)currentRoom != RoomType::Playroom) {
+		currentRoomUI = (UI*)GetGroupObject(OBJECT_GROUP::UI)[++currentRoom];
+	}
 }
