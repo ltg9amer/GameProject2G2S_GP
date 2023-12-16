@@ -86,6 +86,18 @@
     <Filter Include="Develop\02. Cores\CameraManager">
       <UniqueIdentifier>{03f5e858-2ee7-48b5-a910-65886ba8234f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Develop\01. Objects\UI">
+      <UniqueIdentifier>{d01dd357-4dd5-4b48-8de0-af4606a0b155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Develop\01. Objects\Base">
+      <UniqueIdentifier>{f6d7c4ec-54d8-49c7-8146-52c64bf7d858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Develop\01. Objects\UIElement">
+      <UniqueIdentifier>{c4ec2e99-2ae8-4b2a-a09a-252299fad7a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Develop\01. Objects\UIElement\Button">
+      <UniqueIdentifier>{63d6b518-7b38-486f-a25a-ce10da5a022f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -187,8 +199,32 @@
     <ClInclude Include="CameraManager.h">
       <Filter>Develop\02. Cores\CameraManager</Filter>
     </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Develop\01. Objects\Base</Filter>
+    </ClInclude>
     <ClInclude Include="Background.h">
-      <Filter>Develop\01. Objects</Filter>
+      <Filter>Develop\01. Objects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BedroomUI.h">
+      <Filter>Develop\01. Objects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="KitchenUI.h">
+      <Filter>Develop\01. Objects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayroomUI.h">
+      <Filter>Develop\01. Objects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIElement.h">
+      <Filter>Develop\01. Objects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Develop\01. Objects\UIElement</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftArrowButton.h">
+      <Filter>Develop\01. Objects\UIElement\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="RightArrowButton.h">
+      <Filter>Develop\01. Objects\UIElement\Button</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -287,7 +323,31 @@
       <Filter>Develop\02. Cores\CameraManager</Filter>
     </ClCompile>
     <ClCompile Include="Background.cpp">
-      <Filter>Develop\01. Objects</Filter>
+      <Filter>Develop\01. Objects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Develop\01. Objects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="BedroomUI.cpp">
+      <Filter>Develop\01. Objects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="KitchenUI.cpp">
+      <Filter>Develop\01. Objects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayroomUI.cpp">
+      <Filter>Develop\01. Objects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIElement.cpp">
+      <Filter>Develop\01. Objects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Develop\01. Objects\UIElement</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftArrowButton.cpp">
+      <Filter>Develop\01. Objects\UIElement\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="RightArrowButton.cpp">
+      <Filter>Develop\01. Objects\UIElement\Button</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

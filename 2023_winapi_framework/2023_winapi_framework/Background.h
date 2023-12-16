@@ -5,29 +5,16 @@ class Background :
     public Object
 {
 private:
-    UINT currentScene;
     Texture* texture;
-    Vec2 cameraPositionByScene[(UINT)SceneType::End];
+    Vec2 cameraPositionsByRoom[(UINT)RoomType::End];
 
 public:
     Background();
 
     ~Background();
 
-    const SceneType& GetCurrentScene() const {
-        return (SceneType)currentScene;
-    }
-
     const Vec2 GetCameraPosition(int index) const {
-        return cameraPositionByScene[index];
-    }
-
-    void MoveLeftScene() {
-        currentScene--;
-    }
-
-    void MoveRightScene() {
-        currentScene++;
+        return cameraPositionsByRoom[index];
     }
 
     void Update() override;

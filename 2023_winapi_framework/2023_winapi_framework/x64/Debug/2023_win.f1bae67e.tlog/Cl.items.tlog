@@ -2,7 +2,9 @@ D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framewo
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Animator.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Animator.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Background.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Background.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\BaseWindow.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\BaseWindow.obj
+D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\BedroomUI.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\BedroomUI.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Bullet.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Bullet.obj
+D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Button.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Button.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\CameraManager.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\CameraManager.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Collider.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Collider.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\CollisionMgr.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\CollisionMgr.obj
@@ -10,6 +12,9 @@ D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framewo
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\EventMgr.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\EventMgr.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Game_Scene.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Game_Scene.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\KeyMgr.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\KeyMgr.obj
+D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\KitchenUI.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\KitchenUI.obj
+D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\LeftArrowButton.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\LeftArrowButton.obj
+D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\PlayroomUI.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\PlayroomUI.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\PlayScene.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\PlayScene.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\main.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\main.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Monster.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Monster.obj
@@ -18,6 +23,7 @@ D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framewo
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Player.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Player.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Res.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Res.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\ResMgr.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\ResMgr.obj
+D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\RightArrowButton.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\RightArrowButton.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Scene.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Scene.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\SceneMgr.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\SceneMgr.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\SelectGDI.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\SelectGDI.obj
@@ -25,4 +31,6 @@ D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framewo
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Statistic.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Statistic.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Texture.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Texture.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\TimeMgr.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\TimeMgr.obj
+D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\UI.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\UI.obj
+D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\UIElement.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\UIElement.obj
 D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\Vec2.cpp;D:\Projects(GitHub)\GameProject2G2S_GP\2023_winapi_framework\2023_winapi_framework\x64\Debug\Vec2.obj

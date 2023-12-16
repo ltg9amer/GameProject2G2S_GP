@@ -27,6 +27,7 @@ enum class OBJECT_GROUP
 	PLAYER,
 	BULLET,
 	MONSTER,
+	UI,
 	END = 30
 };
 
@@ -50,10 +51,18 @@ enum class EVENT_TYPE
 	END
 };
 
-enum class SceneType
+enum class RoomType
 {
 	Bedroom,
 	Kitchen,
 	Playroom,
+	End
+};
+
+enum class UIElementGroup
+{
+	StaticImage,
+	MovableImage,
+	Button,
 	End
 };

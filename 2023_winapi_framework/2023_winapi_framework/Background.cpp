@@ -1,14 +1,14 @@
 #include "pch.h"
 #include "Background.h"
 #include "CameraManager.h"
+#include "Core.h"
 #include "ResMgr.h"
 #include "Texture.h"
 
-Background::Background() : currentScene((UINT)SceneType::Kitchen), texture(nullptr), cameraPositionByScene{ Vec2(-500.f, 0.f), Vec2(0.f, 0.f), Vec2(500.f, 0.f) }
+Background::Background() : texture(nullptr), cameraPositionsByRoom{ Vec2(-250.f, Core::GetInst()->GetResolution().y * .5f), Vec2(250.f, Core::GetInst()->GetResolution().y * .5f), Vec2(750.f, Core::GetInst()->GetResolution().y * .5f)}
 {
 	texture = ResMgr::GetInst()->TexLoad(L"Background", L"Texture\\Background.bmp");
-
-	SetScale(Vec2((int)texture->GetWidth(), (int)texture->GetHeight()));
+	m_vScale = Vec2((int)texture->GetWidth(), (int)texture->GetHeight());
 }
 
 Background::~Background()
@@ -21,12 +21,11 @@ void Background::Update()
 
 void Background::Render(HDC _dc)
 {
-	Vec2 renderPosition = CameraManager::GetInst()->GetRenderPosition(GetPos());
-	Vec2 scale = GetScale();
+	Vec2 renderPosition = CameraManager::GetInst()->GetRenderPosition(m_vPos);
 
 	BitBlt(_dc
-		, (int)(renderPosition.x - scale.x / 2)
-		, (int)(renderPosition.y - scale.y / 2)
+		, (int)(renderPosition.x - m_vScale.x / 2)
+		, (int)(renderPosition.y - m_vScale.y / 2)
 		, texture->GetWidth(), texture->GetHeight(), texture->GetDC()
 		, 0, 0, SRCCOPY);
 }
