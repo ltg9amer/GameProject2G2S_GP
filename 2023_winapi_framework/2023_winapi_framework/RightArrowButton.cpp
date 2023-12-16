@@ -8,7 +8,7 @@
 RightArrowButton::RightArrowButton()
 {
 	texture = ResMgr::GetInst()->TexLoad(L"RightArrowButton", L"Texture\\RightArrow.bmp");
-	m_vScale = Vec2(41.5f, 64.f);
+	m_vScale = Vec2(texture->GetWidth() / 3.f, texture->GetHeight() / 3.f);
 }
 
 RightArrowButton::~RightArrowButton()

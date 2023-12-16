@@ -192,6 +192,7 @@
     <ClInclude Include="KeyMgr.h" />
     <ClInclude Include="KitchenUI.h" />
     <ClInclude Include="LeftArrowButton.h" />
+    <ClInclude Include="Parva.h" />
     <ClInclude Include="PlayroomUI.h" />
     <ClInclude Include="PlayScene.h" />
     <ClInclude Include="Monster.h" />
@@ -236,6 +237,7 @@
     <ClCompile Include="KeyMgr.cpp" />
     <ClCompile Include="KitchenUI.cpp" />
     <ClCompile Include="LeftArrowButton.cpp" />
+    <ClCompile Include="Parva.cpp" />
     <ClCompile Include="PlayroomUI.cpp" />
     <ClCompile Include="PlayScene.cpp" />
     <ClCompile Include="main.cpp" />

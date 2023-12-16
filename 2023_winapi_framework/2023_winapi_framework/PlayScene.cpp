@@ -64,9 +64,9 @@ void PlayScene::Update()
 		}
 	}
 
+	currentRoomUI->Update();
 	CameraManager::GetInst()->SetLookAtPosition(cameraPosition);
 	Scene::Update();
-	currentRoomUI->Update();
 }
 
 void PlayScene::Render(HDC _dc)

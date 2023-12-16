@@ -101,6 +101,9 @@
     <Filter Include="Develop\05. Wonseok">
       <UniqueIdentifier>{abad51f4-9573-4753-a0d8-af1a4db73898}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Develop\01. Objects\Main">
+      <UniqueIdentifier>{d2e1a66d-bcbe-40f5-aa35-19b7a26afed7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -205,9 +208,6 @@
     <ClInclude Include="UI.h">
       <Filter>Develop\01. Objects\Base</Filter>
     </ClInclude>
-    <ClInclude Include="Background.h">
-      <Filter>Develop\01. Objects\Base</Filter>
-    </ClInclude>
     <ClInclude Include="BedroomUI.h">
       <Filter>Develop\01. Objects\UI</Filter>
     </ClInclude>
@@ -240,6 +240,12 @@
     </ClInclude>
     <ClInclude Include="FoodButton.h">
       <Filter>Develop\05. Wonseok</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Develop\01. Objects\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Parva.h">
+      <Filter>Develop\01. Objects\Main</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -337,9 +343,6 @@
     <ClCompile Include="CameraManager.cpp">
       <Filter>Develop\02. Cores\CameraManager</Filter>
     </ClCompile>
-    <ClCompile Include="Background.cpp">
-      <Filter>Develop\01. Objects\Base</Filter>
-    </ClCompile>
     <ClCompile Include="UI.cpp">
       <Filter>Develop\01. Objects\Base</Filter>
     </ClCompile>
@@ -375,6 +378,12 @@
     </ClCompile>
     <ClCompile Include="FoodButton.cpp">
       <Filter>Develop\05. Wonseok</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Develop\01. Objects\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Parva.cpp">
+      <Filter>Develop\01. Objects\Main</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

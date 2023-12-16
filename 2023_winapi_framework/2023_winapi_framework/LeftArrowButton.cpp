@@ -8,7 +8,7 @@
 LeftArrowButton::LeftArrowButton()
 {
 	texture = ResMgr::GetInst()->TexLoad(L"LeftArrowButton", L"Texture\\LeftArrow.bmp");
-	m_vScale = Vec2(41.5f, 64.f);
+	m_vScale = Vec2(texture->GetWidth() / 3.f, texture->GetHeight() / 3.f);
 }
 
 LeftArrowButton::~LeftArrowButton()
