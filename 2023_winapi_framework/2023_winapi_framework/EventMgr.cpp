@@ -1,4 +1,5 @@
 #include "pch.h"
+#include "Button.h"
 #include "EventMgr.h"
 #include "Object.h"
 void EventMgr::Update()
@@ -14,6 +15,15 @@ void EventMgr::Update()
 		Excute(m_vecEvent[i]);
 	}
 	m_vecEvent.clear();
+}
+
+void EventMgr::ClickButton(Button* _pButton)
+{
+	tEvent eve = {};
+	eve.eEve = EVENT_TYPE::BUTTON_CLICK;
+	eve.button = _pButton;
+	m_vecEvent.push_back(eve);
+
 }
 
 void EventMgr::DeleteObject(Object* _pObj)
@@ -38,6 +48,11 @@ void EventMgr::Excute(const tEvent& _eve)
 	case EVENT_TYPE::CREATE_OBJECT:
 		break;
 	case EVENT_TYPE::SCENE_CHANGE:
+		break;
+	case EVENT_TYPE::BUTTON_CLICK:
+	{
+		_eve.button->OnButtonClick();
+	}
 		break;
 	}
 }

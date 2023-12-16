@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "Button.h"
 #include "CameraManager.h"
+#include "EventMgr.h"
 #include "KeyMgr.h"
 #include "Texture.h"
 
@@ -26,6 +27,12 @@ void Button::Update()
 	}
 
 	if (isPressed && KEY_UP(KEY_TYPE::LBUTTON)) {
+		Vec2 mousePosition = KeyMgr::GetInst()->GetMousePos();
+
+		if (mousePosition.x >= interactionRectangle.left && mousePosition.x <= interactionRectangle.right && mousePosition.y >= interactionRectangle.top && mousePosition.y <= interactionRectangle.bottom) {
+			EventMgr::GetInst()->ClickButton(this);
+		}
+
 		isPressed = false;
 	}
 }

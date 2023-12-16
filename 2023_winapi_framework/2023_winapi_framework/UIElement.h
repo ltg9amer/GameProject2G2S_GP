@@ -1,12 +1,14 @@
 #pragma once
 #include "Object.h"
 class Texture;
+class UI;
 class UIElement :
     public Object
 {
 protected:
     RECT interactionRectangle;
     Texture* texture;
+    UI* ownerUI;
     Vec2 anchoredPosition;
 
 public:
@@ -20,6 +22,10 @@ public:
 
     void SetAnchoredPosition(Vec2 anchoredPosition) {
         this->anchoredPosition = anchoredPosition;
+    }
+
+    void SetOwnerUI(UI* ui) {
+        ownerUI = ui;
     }
 };
 

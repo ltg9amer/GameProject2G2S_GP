@@ -1,10 +1,12 @@
 #pragma once
 #include "Object.h"
+class Scene;
 class UIElement;
 class UI :
     public Object
 {
     vector<UIElement*> elements[(UINT)UIElementGroup::End];
+    Scene* ownerScene;
 
 public:
     UI();
@@ -19,12 +21,20 @@ public:
 
     virtual void Release();
 
+    const Scene* GetOwnerScene() const {
+        return ownerScene;
+    }
+
     vector<UIElement*> GetElementGroup(UIElementGroup elementGroup) {
         return elements[(UINT)elementGroup];
     }
 
     void AddElement(UIElement* element, UIElementGroup elementGroup) {
         elements[(UINT)elementGroup].push_back(element);
+    }
+
+    void SetOwnerScene(Scene* scene) {
+        ownerScene = scene;
     }
 };
 
