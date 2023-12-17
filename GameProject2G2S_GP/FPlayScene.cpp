@@ -5,16 +5,23 @@
 #include "FCore.h"
 #include "FKeyManager.h"
 #include "FKitchenUserInterface.h"
+#include "FParva.h"
 #include "FPlayroomUserInterface.h"
 #include "FPlayScene.h"
+#include "FResourceManager.h"
 #include "FSceneManager.h"
 #include "FTimeManager.h"
 
 void FPlayScene::Initialize() {
 	Background = new FBackground;
 
-	Background->SetPosition(FVector2(FCore::GetInstance()->GetResolution().x / 2.f, FCore::GetInstance()->GetResolution().y / 2.f));
+	Background->SetPosition(FVector2(FCore::GetInstance()->GetResolution().x * 0.5f, FCore::GetInstance()->GetResolution().y * 0.5f));
 	AddObject(Background, EObjectGroup::Background);
+
+	FObject* Parva = new FParva;
+
+	Parva->SetPosition(FVector2(FCore::GetInstance()->GetResolution().x * 0.5f, FCore::GetInstance()->GetResolution().y * 0.5f + 175.0f));
+	AddObject(Parva, EObjectGroup::Character);
 
 	vector<FUserInterface*> UserInterfaces(3);
 
@@ -31,6 +38,9 @@ void FPlayScene::Initialize() {
 
 	CurrentRoom = (UINT)ERoomType::Kitchen;
 	CurrentRoomUserInterface = UserInterfaces[(UINT)CurrentRoom];
+
+	FResourceManager::GetInstance()->LoadSound(L"PlayBGM", L"Sound\\Caketown.mp3", true);
+	FResourceManager::GetInstance()->PlaySoundByKey(L"PlayBGM");
 }
 
 void FPlayScene::Release() {

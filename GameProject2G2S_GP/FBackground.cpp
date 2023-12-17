@@ -14,12 +14,12 @@ FBackground::~FBackground() {
 
 }
 
-void FBackground::Update() {
-
-}
-
 void FBackground::Render(HDC DeviceContext) {
 	FVector2 RenderPosition = FCameraManager::GetInstance()->GetRenderPosition(Position);
 
 	BitBlt(DeviceContext, int(RenderPosition.X - Scale.X * 0.5f), int(RenderPosition.Y - Scale.Y * 0.5f), Texture->GetWidth(), Texture->GetHeight(), Texture->GetDC(), 0, 0, SRCCOPY);
+}
+
+void FBackground::Update() {
+
 }

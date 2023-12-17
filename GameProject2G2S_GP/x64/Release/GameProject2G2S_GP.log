@@ -1,0 +1,103 @@
+﻿  FAnimation.cpp
+  FAnimator.cpp
+  FBackground.cpp
+  FBaseWindow.cpp
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FBaseWindow.cpp(86,22): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FBaseWindow.cpp(87,22): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  FBedroomUserInterface.cpp
+  FButton.cpp
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FButton.cpp(19,141): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FButton.cpp(19,126): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FButton.cpp(19,101): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FButton.cpp(19,59): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FButton.cpp(22,100): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FButton.cpp(22,91): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  FCameraManager.cpp
+  Coin.cpp
+  FCollider.cpp
+  FCollisionManager.cpp
+  FCore.cpp
+  FEventManager.cpp
+  FExitButton.cpp
+  Food.cpp
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\Level.h(20,17): warning C4552: '*': 식의 결과가 사용되지 않습니다.
+  (소스 파일 'Food.cpp'을(를) 컴파일하는 중)
+  
+  FImage.cpp
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FImage.cpp(19,114): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FImage.cpp(19,105): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FImage.cpp(19,83): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FImage.cpp(19,49): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  FIntroUserInterface.cpp
+  Inventory.cpp
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\Level.h(20,17): warning C4552: '*': 식의 결과가 사용되지 않습니다.
+  (소스 파일 'Inventory.cpp'을(를) 컴파일하는 중)
+  
+  FKeyManager.cpp
+  FKitchenUserInterface.cpp
+  FLeftArrowButton.cpp
+  FParva.cpp
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FParva.cpp(20,126): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FParva.cpp(20,117): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  FPlayroomUserInterface.cpp
+  FPlayScene.cpp
+  FMain.cpp
+  FObject.cpp
+  FPathManager.cpp
+  FResource.cpp
+  FResourceManager.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244: '인수': 'wchar_t'에서 'const _Elem'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:             _Elem=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         ]
+  (소스 파일 'FResourceManager.cpp'을(를) 컴파일하는 중)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53):
+  템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+  	D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FResourceManager.cpp(51,21):
+  	컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+          ]
+  		D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\FResourceManager.cpp(51,28):
+  		'FResourceManager::LoadSound'에서 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign'에 대한 첫 번째 참조를 확인하세요.
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(3424,32):
+  	컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<wchar_t*,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *,
+              _Alloc=std::allocator<char>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2590,17):
+  	컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  
+  FRightArrowButton.cpp
+  FScene.cpp
+  FSceneManager.cpp
+  FSelectGraphicDeviceInterface.cpp
+  FStartButton.cpp
+  FStartScene.cpp
+  FStatistic.cpp
+  FTexture.cpp
+  FTimeManager.cpp
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\Level.h(20,17): warning C4552: '*': 식의 결과가 사용되지 않습니다.
+  (소스 파일 'FTimeManager.cpp'을(를) 컴파일하는 중)
+  
+  FUserInterface.cpp
+  FUserInterfaceElement.cpp
+  FVector2.cpp
+  Level.cpp
+D:\Projects(GitHub)\GameProject2G2S_GP\GameProject2G2S_GP\Level.h(20,17): warning C4552: '*': 식의 결과가 사용되지 않습니다.
+  (소스 파일 'Level.cpp'을(를) 컴파일하는 중)
+  
+FAnimation.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/OPT:ICF' 사양으로 인해 무시됩니다.
+  GameProject2G2S_GP.vcxproj -> D:\Projects(GitHub)\GameProject2G2S_GP\Output\bin\GameProject2G2S_GP.exe

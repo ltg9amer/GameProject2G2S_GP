@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "FBedroomUserInterface.h"
+#include "FImage.h"
 #include "FLeftArrowButton.h"
 #include "FRightArrowButton.h"
 

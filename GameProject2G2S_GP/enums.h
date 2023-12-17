@@ -70,7 +70,7 @@ enum class EKeyType {
 enum class EObjectGroup {
 	Default,
 	Background,
-	Player,
+	Character,
 	UserInterface,
 	Last = 30
 };
@@ -95,6 +95,7 @@ enum class ERoomType {
 
 enum class EUserInterfaceElementGroup {
 	Image,
+	Text,
 	Button,
 	Last
 };

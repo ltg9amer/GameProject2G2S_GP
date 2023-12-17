@@ -5,6 +5,7 @@ class FTexture;
 
 class FParva : public FObject {
 	FTexture* Texture;
+	float MoveSpeed;
 
 public:
 	FParva();

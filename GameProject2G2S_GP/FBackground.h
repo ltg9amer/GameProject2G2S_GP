@@ -16,8 +16,8 @@ public:
 		return CameraPositions[Index];
 	}
 
-	void Update() override;
-
 	void Render(HDC DeviceContext) override;
+
+	void Update() override;
 };
 
