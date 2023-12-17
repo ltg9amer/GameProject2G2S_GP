@@ -1,0 +1,23 @@
+#pragma once
+class Coin
+{
+	SINGLETON(Coin)
+private:
+	int CoinValue = 10;
+public:
+	void PlusCoinValue(int value)
+	{
+		CoinValue += value;
+	}
+	void MinusCoinValue(int value)
+	{
+		if (CoinValue > 0)
+		{
+			CoinValue -= value;
+		}
+	}
+	int GetValue()
+	{
+		return CoinValue;
+	}
+};

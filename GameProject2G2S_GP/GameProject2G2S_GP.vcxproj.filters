@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FMain.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FCollisionManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FEventManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FKeyManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FPathManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FResourceManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FSceneManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FTimeManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FBaseWindow.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FCore.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FVector2.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FSelectGraphicDeviceInterface.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FTexture.cpp">
+      <Filter>Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FScene.cpp">
+      <Filter>Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FResource.cpp">
+      <Filter>Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FObject.cpp">
+      <Filter>Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FCollider.cpp">
+      <Filter>Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FAnimation.cpp">
+      <Filter>Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FAnimator.cpp">
+      <Filter>Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FUserInterfaceElement.cpp">
+      <Filter>Project\UserInterface\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FUserInterface.cpp">
+      <Filter>Project\UserInterface\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FButton.cpp">
+      <Filter>Project\UserInterface\Base\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="FImage.cpp">
+      <Filter>Project\UserInterface\Base\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="FIntroUserInterface.cpp">
+      <Filter>Project\UserInterface\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="FKitchenUserInterface.cpp">
+      <Filter>Project\UserInterface\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="FBedroomUserInterface.cpp">
+      <Filter>Project\UserInterface\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="FPlayroomUserInterface.cpp">
+      <Filter>Project\UserInterface\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="FStartScene.cpp">
+      <Filter>Project\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FPlayScene.cpp">
+      <Filter>Project\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FCameraManager.cpp">
+      <Filter>Project\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FExitButton.cpp">
+      <Filter>Project\UserInterface\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="FLeftArrowButton.cpp">
+      <Filter>Project\UserInterface\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="FRightArrowButton.cpp">
+      <Filter>Project\UserInterface\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="FStartButton.cpp">
+      <Filter>Project\UserInterface\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="FBackground.cpp">
+      <Filter>Project\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FParva.cpp">
+      <Filter>Project\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FStatistic.cpp">
+      <Filter>Project\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Project\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Food.cpp">
+      <Filter>Project\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Project\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Project\Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>BuiltIn</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>BuiltIn</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProject2G2S_GP.h">
+      <Filter>BuiltIn</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>BuiltIn</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FCollisionManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FEventManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FKeyManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FPathManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FResourceManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FSceneManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FTimeManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FBaseWindow.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FCore.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FVector2.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FSelectGraphicDeviceInterface.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FTexture.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FScene.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FResource.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FObject.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FCollider.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FAnimation.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FAnimator.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FUserInterfaceElement.h">
+      <Filter>Project\UserInterface\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FUserInterface.h">
+      <Filter>Project\UserInterface\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FButton.h">
+      <Filter>Project\UserInterface\Base\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="FImage.h">
+      <Filter>Project\UserInterface\Base\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="FKitchenUserInterface.h">
+      <Filter>Project\UserInterface\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="FIntroUserInterface.h">
+      <Filter>Project\UserInterface\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="FBedroomUserInterface.h">
+      <Filter>Project\UserInterface\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="FPlayroomUserInterface.h">
+      <Filter>Project\UserInterface\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="FStartScene.h">
+      <Filter>Project\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FPlayScene.h">
+      <Filter>Project\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FCameraManager.h">
+      <Filter>Project\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FExitButton.h">
+      <Filter>Project\UserInterface\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="FLeftArrowButton.h">
+      <Filter>Project\UserInterface\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="FRightArrowButton.h">
+      <Filter>Project\UserInterface\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="FStartButton.h">
+      <Filter>Project\UserInterface\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="FBackground.h">
+      <Filter>Project\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FParva.h">
+      <Filter>Project\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Project\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FStatistic.h">
+      <Filter>Project\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Project\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Food.h">
+      <Filter>Project\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Project\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>BuiltIn</Filter>
+    </Image>
+    <Image Include="GameProject2G2S_GP.ico">
+      <Filter>BuiltIn</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{8431c836-23f2-4bc1-a415-6df5109a0236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{15472d83-8a03-447c-8aeb-716da87e8ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core">
+      <UniqueIdentifier>{93ac2f38-a606-44e1-a772-7fbad90d3692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BuiltIn">
+      <UniqueIdentifier>{32602ba5-45bc-478b-971f-c0d43eae5294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Manager">
+      <UniqueIdentifier>{1319a639-805d-4719-a143-380df8f587ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Base">
+      <UniqueIdentifier>{f461532d-1e86-4fda-bae1-2b5ec2e2eafa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Scene">
+      <UniqueIdentifier>{5bec2e1b-72ec-48f2-85f0-93974228b8e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\UserInterface">
+      <UniqueIdentifier>{6dce670c-f1e1-486e-87b9-1a797c211f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\UserInterface\Base">
+      <UniqueIdentifier>{a4a6a8fd-df02-4105-89a1-80e8a4db9fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\UserInterface\Base\Element">
+      <UniqueIdentifier>{1d4c7b6e-2a96-4159-8172-794559047a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\UserInterface\Element">
+      <UniqueIdentifier>{343a5a28-c66b-4b04-aeba-d83de6dccc5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\UserInterface\Screen">
+      <UniqueIdentifier>{a0b8b21a-663e-493b-b86f-aeb98709b9cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Object">
+      <UniqueIdentifier>{6be8b542-4e15-43ad-a8e1-336107b161b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Manager">
+      <UniqueIdentifier>{0478f01c-a090-4a70-bc09-3626ce05eb17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Base">
+      <UniqueIdentifier>{1b17accc-3334-49fb-9c61-60e9f2101596}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameProject2G2S_GP.rc">
+      <Filter>BuiltIn</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

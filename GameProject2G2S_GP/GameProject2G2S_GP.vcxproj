@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f1bae67e-d2f3-4ddd-a68b-a09bd1d2b95d}</ProjectGuid>
+    <RootNamespace>GameProject2G2S_GP</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>GameProject2G2S_GP</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)Output\bin_debug\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Output\bin_debug\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)Output\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Output\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level2</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)Output\bin\Res\core\inc</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Output\bin\Res\core\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod_vc.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level2</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)Output\bin\Res\core\inc</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Output\bin\Res\core\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod_vc.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level2</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)Output\bin\Res\core\inc</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Output\bin\Res\core\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod_vc.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level2</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)Output\bin\Res\core\inc</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Output\bin\Res\core\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod_vc.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="GameProject2G2S_GP.h" />
+    <ClInclude Include="FAnimation.h" />
+    <ClInclude Include="FAnimator.h" />
+    <ClInclude Include="FBackground.h" />
+    <ClInclude Include="FBaseWindow.h" />
+    <ClInclude Include="FBedroomUserInterface.h" />
+    <ClInclude Include="FButton.h" />
+    <ClInclude Include="FCameraManager.h" />
+    <ClInclude Include="Coin.h" />
+    <ClInclude Include="FCollider.h" />
+    <ClInclude Include="FCollisionManager.h" />
+    <ClInclude Include="FCore.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="enums.h" />
+    <ClInclude Include="FEventManager.h" />
+    <ClInclude Include="FExitButton.h" />
+    <ClInclude Include="Food.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="FImage.h" />
+    <ClInclude Include="FIntroUserInterface.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="FKeyManager.h" />
+    <ClInclude Include="FKitchenUserInterface.h" />
+    <ClInclude Include="FLeftArrowButton.h" />
+    <ClInclude Include="FParva.h" />
+    <ClInclude Include="FPlayroomUserInterface.h" />
+    <ClInclude Include="FPlayScene.h" />
+    <ClInclude Include="FObject.h" />
+    <ClInclude Include="FPathManager.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="FResource.h" />
+    <ClInclude Include="FResourceManager.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="FRightArrowButton.h" />
+    <ClInclude Include="FScene.h" />
+    <ClInclude Include="FSceneManager.h" />
+    <ClInclude Include="FSelectGraphicDeviceInterface.h" />
+    <ClInclude Include="FStartButton.h" />
+    <ClInclude Include="FStartScene.h" />
+    <ClInclude Include="FStatistic.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="FTexture.h" />
+    <ClInclude Include="FTimeManager.h" />
+    <ClInclude Include="FUserInterface.h" />
+    <ClInclude Include="FUserInterfaceElement.h" />
+    <ClInclude Include="FVector2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FAnimation.cpp" />
+    <ClCompile Include="FAnimator.cpp" />
+    <ClCompile Include="FBackground.cpp" />
+    <ClCompile Include="FBaseWindow.cpp" />
+    <ClCompile Include="FBedroomUserInterface.cpp" />
+    <ClCompile Include="FButton.cpp" />
+    <ClCompile Include="FCameraManager.cpp" />
+    <ClCompile Include="Coin.cpp" />
+    <ClCompile Include="FCollider.cpp" />
+    <ClCompile Include="FCollisionManager.cpp" />
+    <ClCompile Include="FCore.cpp" />
+    <ClCompile Include="FEventManager.cpp" />
+    <ClCompile Include="FExitButton.cpp" />
+    <ClCompile Include="Food.cpp" />
+    <ClCompile Include="FImage.cpp" />
+    <ClCompile Include="FIntroUserInterface.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="FKeyManager.cpp" />
+    <ClCompile Include="FKitchenUserInterface.cpp" />
+    <ClCompile Include="FLeftArrowButton.cpp" />
+    <ClCompile Include="FParva.cpp" />
+    <ClCompile Include="FPlayroomUserInterface.cpp" />
+    <ClCompile Include="FPlayScene.cpp" />
+    <ClCompile Include="FMain.cpp" />
+    <ClCompile Include="FObject.cpp" />
+    <ClCompile Include="FPathManager.cpp" />
+    <ClCompile Include="FResource.cpp" />
+    <ClCompile Include="FResourceManager.cpp" />
+    <ClCompile Include="FRightArrowButton.cpp" />
+    <ClCompile Include="FScene.cpp" />
+    <ClCompile Include="FSceneManager.cpp" />
+    <ClCompile Include="FSelectGraphicDeviceInterface.cpp" />
+    <ClCompile Include="FStartButton.cpp" />
+    <ClCompile Include="FStartScene.cpp" />
+    <ClCompile Include="FStatistic.cpp" />
+    <ClCompile Include="FTexture.cpp" />
+    <ClCompile Include="FTimeManager.cpp" />
+    <ClCompile Include="FUserInterface.cpp" />
+    <ClCompile Include="FUserInterfaceElement.cpp" />
+    <ClCompile Include="FVector2.cpp" />
+    <ClCompile Include="Level.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameProject2G2S_GP.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GameProject2G2S_GP.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
